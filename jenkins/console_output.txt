@@ -1,0 +1,28 @@
+Started by user HINDU SHREE C T
+Running as SYSTEM
+Building in workspace C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Alexa_Demo
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/debasis567/jenkins-demo.git
+ > git.exe init C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Alexa_Demo # timeout=10
+Fetching upstream changes from https://github.com/debasis567/jenkins-demo.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.31.1.windows.1'
+ > git.exe fetch --tags --force --progress -- https://github.com/debasis567/jenkins-demo.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/debasis567/jenkins-demo.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 5301a4e880bca06b920950d02df44220cfa33fde (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 5301a4e880bca06b920950d02df44220cfa33fde # timeout=10
+Commit message: "Merge pull request #2 from debasis567/testing_jenkins_polling"
+First time build. Skipping changelog.
+[Alexa_Demo] $ C:\Windows\system32\cmd.exe -xe C:\Windows\TEMP\jenkins5198474445537668454.sh
+Microsoft Windows [Version 10.0.18363.1198]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\Alexa_Demo>Finished: SUCCESS
